@@ -1,0 +1,5 @@
+Log: [0915f2dc-9238-4ba7-a638-e474c712762f:2025-09-16T13:11:36.928273+0300 - INFO - Successfully accessed /docs]
+Log: [4aab4e70-470a-44a2-b037-e6d66252cd82:2025-09-16T13:11:37.168432+0300 - INFO - Successfully accessed /openapi.json]
+Log: [051b98f1-2388-4078-8005-46bd4865e008:2025-09-16T13:11:52.743706+0300 - INFO - Successfully accessed /categories/]
+Log: [b6cf4f97-6799-43a4-8cc4-004207900332:2025-09-16T13:12:02.913176+0300 - INFO - Successfully accessed /products/]
+Log: [e59ac0d3-5372-4e23-afe9-2f594950f171:2025-09-16T13:13:12.053529+0300 - WARNING - Request to /test failed]

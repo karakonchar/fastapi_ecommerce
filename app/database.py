@@ -20,8 +20,10 @@ from sqlalchemy.orm import DeclarativeBase
 # Строка подключения для SQLite
 DATABASE_URL = "postgresql+asyncpg://ecommerce_user:1234567@localhost:5432/ecommerce_db"
 
+
 # Создаём Engine
-async_engine = create_async_engine(DATABASE_URL, echo=True)
+async_engine = create_async_engine('postgresql+asyncpg://postgres_user:postgres_password@db:5432/postgres_database',
+                             echo=False)
 
 # Настраиваем фабрику сеансов
 async_session_maker = async_sessionmaker(async_engine, expire_on_commit=False, class_=AsyncSession)
